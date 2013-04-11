@@ -1,0 +1,18 @@
+#main-header {
+	background: #2C2C2C;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#2C2C2C), to(#303030));
+	background: 
+	position: relative;
+	height: 145px;
+	padding: 10px;
+}
+
+#main-header h1 {
+	margin: 0 auto 0 auto;
+	width: 960px;
+}
+
+#main-header nav {
+	margin: 0 auto 0 auto;
+	width: 960px;
+}

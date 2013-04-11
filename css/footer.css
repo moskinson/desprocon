@@ -1,0 +1,18 @@
+#main-footer {
+	position: relative;
+	height: 145px;
+	padding: 10px;
+	background: #e2e2d7;
+	background: rgba(149, 149, 137, .15);
+	border: 1px solid #d2d2c4;
+	position: absolute;
+	height: 60px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+#main-footer #container {
+	margin: 0 auto 0 auto;
+	width: 960px;
+}

@@ -8,8 +8,6 @@ body {
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 12px;
 	background: #CCCCCC;
-	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#CCCCCC), to(#ddd));
-	background: -moz-linear-gradient(19% 75% 90deg,#CCCCCC, #ddd);
 }
 
 a { 
@@ -20,8 +18,6 @@ a {
 .clear { 
 	clear: both;
 }
-
-
 
 #main-wrapper {
 	margin: 0 auto 0 auto;

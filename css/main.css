@@ -1,6 +1,11 @@
-@import url("header.css");
-@import url("footer.css");
 
+@font-face {
+	font-family: 'DroidSansBold';
+	src: url('fonts/DroidSans-Bold-webfont.eot');
+	src: local('☺'), url('fonts/DroidSans-Bold-webfont.woff') format('woff'), url('fonts/DroidSans-Bold-webfont.ttf') format('truetype'), url('fonts/DroidSans-Bold-webfont.svg#webfontSOhoM6aS') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
 
 body {
 	margin: 0;
@@ -17,13 +22,6 @@ a {
 
 .clear { 
 	clear: both;
-}
-
-#main-wrapper {
-	margin: 0 auto 0 auto;
-	width: 960px;
-	padding: 10px;
-	background: #eee;
 }
 
 .fright {

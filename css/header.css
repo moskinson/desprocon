@@ -1,18 +1,40 @@
-#main-header {
-	background: #2C2C2C;
+#main-header {	
 	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#2C2C2C), to(#303030));
-	background: 
+	background: -moz-linear-gradient(19% 75% 90deg,#2C2C2C, #303030);
+	background: #303030;
 	position: relative;
-	height: 145px;
-	padding: 10px;
+	height: 110px;
+	padding: 5px;
 }
 
-#main-header h1 {
+#main-header #container {
 	margin: 0 auto 0 auto;
 	width: 960px;
 }
 
-#main-header nav {
-	margin: 0 auto 0 auto;
-	width: 960px;
+#main-header #container h1{
+	font: white;
+}
+
+.congeladosLogo {
+	background: url(../images/logo.png) top left no-repeat;
+	width: 100px;
+	height: 100px;
+	position: relative;
+	top: -10px;
+	margin-right: 30px;
+	opacity: .80;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	-moz-box-shadow: 2px 2px 4px rgb(114, 113, 116);
+	-webkit-box-shadow: 2px 2px 4px rgb(114, 113, 116);
+	box-shadow: 2px 2px 4px rgb(114, 113, 116);
+}
+
+.congeladosLogo:hover {
+	opacity: .70;
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
 }

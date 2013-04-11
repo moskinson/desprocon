@@ -26,3 +26,11 @@ a {
 	background: #eee;
 }
 
+.fright {
+	float: right;
+}
+
+.fleft {
+	float: left;
+}
+

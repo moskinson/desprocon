@@ -48,9 +48,9 @@ a {
 	-moz-box-shadow: 2px 2px 4px rgb(114, 113, 116);
 	-webkit-box-shadow: 2px 2px 4px rgb(114, 113, 116);
 	box-shadow: 2px 2px 4px rgb(114, 113, 116);
-	-webkit-transition: opacity .4s ease-in-out;
-	-moz-transition: opacity .4s ease-in-out;
-	transition: opacity .4s ease-in-out;
+	-webkit-transition: opacity .3s ease-in-out;
+	-moz-transition: opacity .3s ease-in-out;
+	transition: opacity .3s ease-in-out;
 }
 
 .congeladosLogo:hover {

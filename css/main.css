@@ -41,15 +41,18 @@ a {
 	width: 100px;
 	height: 100px;
 	display: inline;
-	opacity: .70;
+	opacity: .40;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
 	-moz-box-shadow: 2px 2px 4px rgb(114, 113, 116);
 	-webkit-box-shadow: 2px 2px 4px rgb(114, 113, 116);
 	box-shadow: 2px 2px 4px rgb(114, 113, 116);
+	-webkit-transition: opacity .4s ease-in-out;
+	-moz-transition: opacity .4s ease-in-out;
+	transition: opacity .4s ease-in-out;
 }
 
 .congeladosLogo:hover {
-	opacity: 1;
+	opacity: .8;
 }

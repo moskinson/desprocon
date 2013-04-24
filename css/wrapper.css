@@ -1,6 +1,11 @@
 #main-wrapper {
 	margin: 0 auto 0 auto;
 	width: 940px;
+	min-height: 200px;
 	padding: 10px;
 	background: #eee;
+}
+
+#main-wrapper #container {
+	width: 640px;
 }

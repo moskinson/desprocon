@@ -8,3 +8,15 @@
 #main-wrapper #container {
 	width: 640px;
 }
+
+#navLinks {
+	list-style-type: none;
+	margin-left:  auto;
+	margin-right:  auto;
+	padding: 0;
+	width: 240px;
+}
+
+#navLinks li {
+	margin-left:10px;
+}

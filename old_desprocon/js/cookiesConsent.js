@@ -81,6 +81,6 @@
 })(jQuery);
 $(document).ready(function(){
 
-  //$('#cookieMessage').cookieConsent();
+  $('#cookieMessage').cookieConsent();
 
 });
